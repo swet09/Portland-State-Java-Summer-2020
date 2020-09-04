@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">PhoneBill Android App</string>
+    <string name="AddPhoneCall">Add\nCall</string>
+    <string name="SearchCalls">Search\nCalls</string>
+    <string name="print">Print</string>
+    <string name="help">Help</string>
+    <string name="readme">
+         <![CDATA[
+        <h2>This is phonebill mobile application and it contains below functionality.</h2>
+        <ol><font size="4">
+            <li>You can add calls and customer name by clicking on button add calls. Below is input field constraints.
+                <ul style="list-style-type:disc;">
+                    <li><b> Customer Name</b> - Should not be empty</li>
+                    <li><b> Caller</b> - It should be 10 character only</li>
+                    <li><b> Callee</b> - It should be 10 character only</li>
+                    <li><b> start date time</b> - It should be in MM/dd/yyyy hh:mm am/pm</li>
+                    <li><b> end date time</b> - It should be in MM/dd/yyyy hh:mm am/pm</li>
+                </ul>
+            </li>
+            <br>
+            <li>Search call button contains below functionality.
+                <ul style="list-style-type:disc;">
+                    <li>Input field <b> Cust Name</b> - Should not be empty</li>
+                    <li>Input field <b> Caller</b> - It should be 10 character only(Optional field)</li>
+                    <li>Input field <b> Callee</b> - It should be 10 character only(Optional field)</li>
+                    <li> By clicking on pretty print button you can get calls in pretty format. </li>
+                    <li> By clicking on search calls button you can get calls in raw format. </li>
+                    <li> By providing only customer name you can get all calls of specific customer. </li>
+                    <li> By providing caller and callee you can get all calls of specific customet from given caller to callee. </li>
+                    <li> By providing only customer name and caller phone number you can get all calls of given customer. </li>
+                    <li> By providing only customer name and callee you can get all calls of given customer. </li>
+                </ul>
+            </li>
+            </font>
+        </ol>
+        ]]>
+    </string>
+</resources>

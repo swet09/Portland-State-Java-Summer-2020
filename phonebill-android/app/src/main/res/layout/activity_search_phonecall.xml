@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/android"
+    tools:context=".SearchPhoneCallActivity"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        >
+
+        <EditText
+            android:id="@+id/SearchName"
+            android:hint="Customer Name"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            />
+
+        <EditText
+            android:id="@+id/SearchStrtTime"
+            android:hint="Start Time (Optional)"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            />
+
+        <EditText
+            android:id="@+id/SearchEndTime"
+            android:hint="End Time (Optional)"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            />
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:text="Search Calls"
+            android:textSize="20dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white"
+            />
+
+        <Button
+            android:id="@+id/prettyPrint"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:text="Pretty Print"
+            android:textSize="20dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white"
+            />
+    </LinearLayout>
+</ScrollView>
